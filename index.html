@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">We would like your feedback!</p>
+  
+    <form id="survey-form">
+        <label id="name-label">Name:</label>
+        <input id="name" type="text" placeholder="enter name" required>
+        <label id="email-label">Email:</label> 
+        <input id="email" type="email" placeholder="enter email" required>
+        <label id="number-label">Number:</label>
+        <input id="number" type="number" placeholder="enter number" min="10" max="10" required><br><br>
+
+        <label>Choose one:</label>
+        <select id="dropdown">
+        <option value="one">
+        <option value="two">
+        <option value="three">
+        </select><br><br>
+
+        <label>
+            <input value="up" type="radio" name="up-down">Up
+        </label>
+        <label>
+            <input value="down" type="radio" name="up-down">Down
+        </label><br><br>
+
+        <label>
+            <input value="short" type="checkbox">short
+        </label>
+        <label>
+            <input value="tall" type="checkbox">tall
+        </label><br><br>
+
+        <textarea placeholder="Additional comments here"></textarea><br>
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+</html>
