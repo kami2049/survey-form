@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family:"Lato", sans-serif;
 }
@@ -13,11 +17,12 @@ div{
 }
 
 #survey-form{
-    
+    border: 2px solid black;
+    width: 600px;
+    margin: auto;
 }
 
 #name, #email, #number{
-    width: 25%;
     padding: 12px 20px;
     margin: 8px 0px;
 }
