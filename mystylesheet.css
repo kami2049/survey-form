@@ -1,8 +1,10 @@
+/**
 *{
     box-sizing: border-box;
-}
+**/
 
 body{
+    background-color: cadetblue;
     font-family:"Lato", sans-serif;
 }
 
@@ -11,19 +13,20 @@ header{
 }
 
 div{
-    background-color: cadetblue;
     border-radius: 5px;
     padding: 20px;
 }
 
 #survey-form{
     border: 2px solid black;
-    width: 600px;
+    height: 400px;
+    width: 1280px;
     margin: auto;
+    padding: 20px;
 }
 
 #name, #email, #number{
-    padding: 12px 20px;
+    padding: 6px 10px;
     margin: 8px 0px;
 }
 
